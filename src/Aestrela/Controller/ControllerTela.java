@@ -128,7 +128,8 @@ public class ControllerTela {
                 if(i==0 && j==0){
                     mapa[i][j].setBackground(Color.BLUE);
                 }
-                if(i==9 && j==9){
+                
+                if(tela.getDestino()[0] == i && tela.getDestino()[0] == j){
                     mapa[i][j].setBackground(Color.MAGENTA);
                 }     
                 
